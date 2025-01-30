@@ -1,0 +1,123 @@
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Root */
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #3b4954;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Title */
+.title {
+    font-size: 2.5rem;
+    margin-left: 1rem;
+}
+
+.titleHR {
+    border-color: gold;
+}
+
+/* Navigation */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    background-color: black;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid white;
+}
+
+.navlinks {
+    display: flex;
+    gap: 2rem;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: gold;
+    text-decoration: underline;
+}
+
+/* Card */
+.card-container {
+    background-color: rgba(0, 0, 0, 0.87);
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid rgb(102, 102, 102);
+}
+
+.card-header {
+    margin-bottom: 0.5rem;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+/* Student */
+.student-container {
+    color: #242424;
+    background-color: rgb(226, 226, 226);
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+    gap: 1rem;
+}
+
+.student-avatar {
+    border-radius: 15px;
+    border: 1px solid black;
+    object-fit: contain;
+}
+
+.student-card {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.student-container span {
+    font-weight: bold;
+}
+
+/* Button & Input */
+button {
+    margin: 2rem;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+input {
+    font-size: 1rem;
+    padding: 1rem;
+}
